@@ -3,19 +3,23 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>desafio_01</title>
+   <title>desafio_02</title>
 </head>
 <body>
-    <h1>Calcuadora de Salario Liquido</h1>
+    <h1>Carrinho de compras</h1>
     <form action="logica.php" method="POST">
-        <label for="">Nome do funcionario: </label>
+        <label for="">Dados do cliente </label>
         <input type=" text " name="nome">
         <br><br>
-        <label for="">Salario Bruto: </label>
-        <input type=" text " name="salario_bruto">
+        <label for="">Produto 01:</label>
+        <input type=" text " name="Nome do produto:">
+        <input type=" text " name="Preço:">
+        <input type=" text " name="Quantidade:">
         <br><br>
-        <label for="">horas extras: </label>
-        <input type=" text " name="horas_extras">
+        <label for="">Produto 02 </label>
+        <input type=" text " name="Nome do produto:">
+        <input type=" text " name="Preço:">
+        <input type=" text " name="Quantidade:">
         <br><br>
         <label for="">beneficio: </label>
         <input type=" text " name="beneficios">
